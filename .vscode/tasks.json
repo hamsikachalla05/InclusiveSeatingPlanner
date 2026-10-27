@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build",
+      "type": "shell",
+      "windows": { "command": ".\\build.bat" },
+      "linux": { "command": "./run.sh build" },
+      "osx": { "command": "./run.sh build" },
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": "$javac"
+    },
+    {
+      "label": "Run tests",
+      "type": "shell",
+      "windows": { "command": ".\\test.bat" },
+      "linux": { "command": "./run.sh test" },
+      "osx": { "command": "./run.sh test" },
+      "group": "test",
+      "problemMatcher": "$javac"
+    },
+    {
+      "label": "Package JAR",
+      "type": "shell",
+      "windows": { "command": ".\\package.bat" },
+      "linux": { "command": "./run.sh package" },
+      "osx": { "command": "./run.sh package" },
+      "problemMatcher": "$javac"
+    }
+  ]
+}

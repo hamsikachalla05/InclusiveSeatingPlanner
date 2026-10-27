@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Inclusive Event Seating Planner",
+      "request": "launch",
+      "mainClass": "com.seatingplanner.App"
+    },
+    {
+      "type": "java",
+      "name": "Run self-tests",
+      "request": "launch",
+      "mainClass": "com.seatingplanner.SelfTest"
+    }
+  ]
+}

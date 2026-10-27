@@ -1,0 +1,13 @@
+id,name,group,accessibility,companion_required,companion_id,preferred_area,preferred_row,notes
+B001,"Okafor, Chidi",Team Alpha,accessible seat,yes,B002,,,"Arrives early"
+B002,Ngozi Okafor,Team Alpha,none,no,,,,Companion for B001
+B003,"Sam ""Sunny"" Rivera",Team Alpha,,,,front,,
+B004,Lena Fischer,Team Alpha,,,,,,
+B005,Hiro Tanaka,Speakers,front section,,,,,
+B006,Ines Duarte,Speakers,aisle,,,,,"Needs easy exit, seat near aisle"
+B007,Marcus Bell,,,,,back,,
+B008,Priya Nair,,,,,,C,
+B009,Tomás Ruiz,Team Beta,,,,,,
+B010,Aisha Bello,Team Beta,,,,,,
+B011,Jonas Weber,Team Beta,,,,middle,,
+B012,Mei Chen,,accessible seat,,,,,
